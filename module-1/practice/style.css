@@ -1,0 +1,61 @@
+.container {
+    margin: 0 100px 0 100px;
+    box-shadow: 2px 2px 15px 2px gray;
+}
+
+.div {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin-right: 700px;
+}
+
+.btn {
+    border: none;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid green;
+}
+
+.btn:hover {
+    color: green;
+    background-color: white;
+}
+
+.p, .about {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.p:hover, .about:hover { 
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.img {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    position: absolute;
+    color: rgb(16, 217, 16);
+    font-size: 100px;
+    margin-top: 300px;
+    margin-left: 300px;
+    margin-right: 400px;
+
+}

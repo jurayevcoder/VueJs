@@ -1,0 +1,21 @@
+.wrapper {
+    border: 2px solid yellowgreen;
+    display: flex;
+    justify-content:  space-between;
+    height: 600px;
+    align-items: stretch;
+}
+
+.box {
+    min-width: 200px;
+    height: 200px;
+    background-color: crimson;
+    border: 5px green solid;
+    padding: 10px 20px 10px 10px;
+    display: block;
+}
+
+.container{
+    max-width: 1240px;
+    margin: 0 px;
+}
