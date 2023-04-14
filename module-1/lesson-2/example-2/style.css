@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: aqua;
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.navbar {
+    padding-top: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-group {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.nav__logo {
+    text-decoration: none;
+    width: 186px;
+    height: 41px;
+    color: #A55C30;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 41px;
+}
+
+
+
+.link__name {
+    text-decoration: none;
+    width: 47px;
+    height: 22px;
+    color: #000;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+
+}
+
+main {
+    width: 100%;
+    min-height: calc(100vh - 70px - 50px);
+    background-color: green;
+}
+
+.main__bash {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__bash-1, .main__bash-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.bash__img-3 {
+    position: absolute;
+}
+
+footer {
+    height: 50px;
+    background-color: black;
+}
+
+.text-center {
+    text-align: center;
+    color: white;
+}

@@ -1,4 +1,4 @@
-.wrapper {
+/* .wrapper {
     border: 2px solid #000;
     padding: 10px;
     margin: 10px;
@@ -22,4 +22,36 @@
     background-color: aqua !important;
     grid-row: 2/4;
     grid-column: 4/5;
+} */
+
+/* ----------------------------------------------------------------------------------------- */
+
+/* .wrapper {
+    padding: 10px;
+    border: 2px solid #000;
 }
+
+.box-item {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 5px;
+    position: relative;
+}
+
+/* position : defoult : static -> */
+
+/* .box-item:nth-child(1) {
+    top: 130px;
+    left: 300px;
+    background-color: lime !important;
+}
+
+.box-item:nth-child(2) {
+    top: -300px;
+    left: 300px;
+    right: 0;
+    background-color: yellow !important;
+} */
+
+/* ----------------------------------------------------------------------------------------- */
