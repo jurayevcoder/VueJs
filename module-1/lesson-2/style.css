@@ -1,0 +1,25 @@
+.wrapper {
+    border: 2px solid #000;
+    padding: 10px;
+    margin: 10px;
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: repeat(5, 300px);
+}
+
+.box-item {
+    background-color: rgb(11, 113, 21);
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.box-item:nth-child(1) {
+    background-color: aqua !important;
+    grid-row: 2/4;
+    grid-column: 4/5;
+}
