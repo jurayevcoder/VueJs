@@ -232,6 +232,128 @@ main {
     color: #FFFFFF;
 }
 
+.main__fleet {
+    display: flex;
+    justify-content: center;
+    margin: 60px 100px;
+}
+
+.fleet__name {
+    position: absolute;
+    width: 134px;
+    height: 72px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 72px;
+    color: #A55C30;
+}
+
+.fleet__group {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 1192px;
+    height: 468px;
+}
+
+.fleet__group--content {
+    padding: 20px;
+    width: 378px;
+    height: 468px;
+    background: #FFFFFF;
+    box-shadow: 4px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.group__content--img {
+    margin-top: 50px;
+    width: 311px;
+    height: 160px;
+}
+
+.group__content--name {
+    text-align: center;
+    margin-top: 10px;
+    height: 33px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #A55C30;
+}
+
+.group__content--bio {
+    text-align: center;
+    height: 16px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(35, 34, 34, 0.96);
+}
+
+.group__content--text {
+    margin-top: 20px;
+    margin-left: 35px;
+    width: 299px;
+    height: 99px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: rgba(35, 34, 34, 0.96);
+
+}
+
+.group__content--group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 310.53px;
+    height: 24px;
+}
+
+.content__group-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 87px;
+    height: 24px;
+    margin-left: 35px;
+}
+
+.content__group-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 105.53px;
+    height: 19.25px;
+}
+
+.left-right-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 2650px;
+    margin-left: 25px;
+    gap: 1310px;
+}
+
+.frame {
+    position: absolute;
+    width: 65px;
+    height: 11px;
+    margin-left: 690px;
+    top: 2930px;
+}
+
 footer {
     height: 50px;
     /* background-color: black; */
