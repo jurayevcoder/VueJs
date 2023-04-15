@@ -4,14 +4,19 @@
     box-sizing: border-box;
 }
 
+li {
+    list-style: none;
+}
+
 header {
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 100%;
 }
 
 .container {
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 1440px;
+    border: 2px solid black;
 }
 
 .navbar {
@@ -20,6 +25,7 @@ header {
     text-align: center;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 100px;
 }
 
 .link-group {
@@ -58,7 +64,7 @@ header {
 main {
     width: 100%;
     min-height: calc(100vh - 70px - 50px);
-    background-color: green;
+    /* background-color: green; */
 }
 
 .main__bash {
@@ -67,16 +73,75 @@ main {
     align-items: center;
 }
 
-.main__bash-1, .main__bash-2 {
+.main__bash-2 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
 }
 
+.main__bash-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    gap: 50px;
+    margin-bottom: 190px;
+}
+
+.bash__img-1 {
+    margin-top: 30px;
+}
+
+.bash__name {
+    font-size: 70px;
+    margin-top: 90px;
+    font-family: 'Lora';
+    font-style: normal;
+    color: #232730;
+}
+
 .bash__img-3 {
     position: absolute;
+    margin-right: 50px;
 }
+
+.main__about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.about__img {
+    margin-left: 100px;
+}
+
+.about__name {
+    width: 114px;
+    height: 51px;
+    color: #A55C30;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 51px;
+    margin-bottom: 10px;
+}
+
+.about__text {
+    width: 481px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    color: #232730;
+    margin-right: 150px;
+}
+
+
 
 footer {
     height: 50px;
