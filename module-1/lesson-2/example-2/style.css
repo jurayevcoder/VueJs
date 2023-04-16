@@ -9,14 +9,12 @@ li {
 }
 
 header {
-    /* background-color: aqua; */
     width: 100%;
 }
 
 .container {
     margin: 0 auto;
     max-width: 1440px;
-    border: 2px solid black;
 }
 
 .navbar {
@@ -596,19 +594,13 @@ footer {
 
 .footer__group {
     width: 1440px;
-    height: 437px;
+    height: 500px;
     background: #0C0C0C;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 123px;
     padding-right: 122px;
-}
-
-.footer__group-1,
-.footer__group-2,
-.footer__group-3 {
-    border: 2px solid white;
 }
 
 .footer__group-1 {
@@ -639,7 +631,7 @@ footer {
     color: #FAFAFA;
 }
 
-.footer__group-2{
+.footer__group-2 {
     margin-top: 74px;
 }
 
@@ -706,12 +698,103 @@ footer {
 }
 
 .footer__group-3 {
-    margin-top: 80px;
+    margin-top: 10px;
+    margin-bottom: 18px;
 }
 
+.footer__group-3 h1 {
+    width: 113.84px;
+    height: 30px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #A55C30;
+}
 
+.footer__group-3-1,
+.footer__group-3-2,
+.footer__group-3-3 {
+    display: flex;
+    align-items: center;
+}
 
-/* .text-center {
-    text-align: center;
-    color: white;
-} */
+.footer__group-3-1 {
+    width: 230px;
+    height: 46px;
+}
+
+.footer__group-3-2 {
+    width: 164.97px;
+    height: 42px;
+}
+
+.footer__group-3-3 {
+    width: 205px;
+    height: 24px;
+}
+
+.footer__group-3-1 p {
+    width: 190px;
+    height: 46px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFAFA;
+    margin-left: 15px;
+}
+
+.footer__group-3-1 {
+    margin-top: 32px;
+}
+
+.footer__group-3-2 {
+    margin-top: 16px;
+}
+
+.footer__group-3-3 {
+    margin-top: 15px;
+}
+
+.footer__group-3-2 p {
+    color: #FAFAFA;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.footer__group-3-3 p {
+    width: 164px;
+    height: 18px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFAFA;
+    margin-left: 15px;
+}
+
+.footer__i {
+    position: absolute;
+    width: 1175px;
+    height: 0px;
+    border: 1.5px solid rgba(229, 229, 229, 0.4);
+    margin: -65px 130px;
+}
+
+.footer__text {
+    position: absolute;
+    width: 276px;
+    height: 16px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FAFAFA;
+    margin-top: -40px;
+    margin-left: 600px;
+}
