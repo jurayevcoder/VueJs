@@ -354,6 +354,169 @@ main {
     top: 2930px;
 }
 
+.main__static {
+    background-color: rgba(35, 34, 34, 0.96);
+    width: 1440px;
+    height: 306px;
+    padding: 88px 220px;
+}
+
+.static__group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.static__group h1 {
+    width: 200px;
+    height: 90px;
+    color: white;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 98px;
+}
+
+.static__group h3 {
+    width: 200px;
+    height: 31px;
+    color: white;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.main__rectangle {
+    width: 1440px;
+    height: 779px;
+    background-color: #F8D7A4;
+    padding: 116px 125px 61px;
+}
+
+.main__rectangle h1 {
+    margin-left: 450px;
+    margin-bottom: 50px;
+    width: 295px;
+    height: 61px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    text-align: center;
+    color: #A55C30;
+}
+
+.rectangle__group {
+    width: 1192px;
+    height: 424px;
+    background: #FFFFFF;
+    box-shadow: 5px 15px 33px rgba(0, 0, 0, 0.1);
+}
+
+.rectangle__group-1 {
+    position: absolute;
+    width: 177.64px;
+    height: 270.13px;
+    text-align: center;
+    margin: 72px 894.36px 81.87px 120px;
+}
+
+.rectangle__group-1 img {
+    width: 160px;
+    height: 160px;
+}
+
+.rectangle__group-1 h2 {
+    width: 177.64px;
+    height: 35px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #272727;
+    margin-top: 20px;
+}
+
+.rectangle__group-1 p {
+    width: 123.88px;
+    height: 42.07px;
+    font-family: 'Nunito Sans';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 150%;
+    color: #979797;
+    margin-left: 25px;
+}
+
+.rectangle__group-2 {
+    position: absolute;
+    width: 601px;
+    height: 178px;
+    font-family: 'Nunito Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #272727;
+    margin: 72px 163px 174px 428px;
+}
+
+.rectangle__group-3 {
+    position: absolute;
+    width: 189.33px;
+    height: 28.05px;
+    margin: 314px 368.67px 81.95px 634px;
+}
+
+.rectangle__img {
+    position: absolute;
+    width: 65px;
+    height: 11px;
+    margin: 45px 68px 61px 555px;
+}
+
+.main__call {
+    width: 1440px;
+    height: 306px;
+    text-align: center;
+    background: url(./img/Rectangle\ 3-car.png);
+}
+
+.main__call h2 {
+    position: absolute;
+    width: 537px;
+    height: 61px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin: 81.6px 451.5px 163.4px 451.5px;
+}
+
+
+.main__call h1 {
+    position: absolute;
+    width: 954px;
+    height: 76px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 76px;
+    color: #FFFFFF;
+    margin: 132px 243px 98px 243px;
+}
+
 footer {
     height: 50px;
     /* background-color: black; */
