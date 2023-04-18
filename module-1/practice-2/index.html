@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burger</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <section class="container">
+        <div class="center gridd">
+            <div class="chap">
+                <div><img src="./images/top-bread.svg" alt="non" /></div>
+                <div class="food-layers" id="img"></div>
+                <div><img src="./images/bottom-bread.svg" alt="non" /></div>
+            </div>
+            <div class="ong">
+                <div class="text">
+                    <p>Cheese - $2</p>
+                    <p>Meat - $5</p>
+                    <p>Onion - $1</p>
+                    <p>Salad - $1</p>
+                    <p>Tomato - $2</p>
+                    <p>Pickle - $3</p>
+                    <p>Bread - $2</p>
+                </div>
+                <div class="flex tugma">
+
+                    <button class="cheese-button" onclick="buy(this)">Cheese</button>
+                    <button class="meat-button" onclick="buy(this)">Meat</button>
+                    <button class="onion-button" onclick="buy(this)">Onion</button>
+                    <button class="salad-button" onclick="buy(this)">Salad</button>
+                    <button class="tomato-button" onclick="buy(this)">Tomato</button>
+                    <button class="pickle-button" onclick="buy(this)">Pickle</button>
+                    <button class="btn bread-button" onclick="buy(this)">Bread</button>
+
+                </div>
+                <div class="flex xarid">
+                    <p class="price">Total: $<span class="total-price" id="total">2</span></p>
+                    <button class="order-button" onclick="select()">Buyurtma berish</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>
