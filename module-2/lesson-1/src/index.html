@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson-1</title>
+    <!-- Tailwindcss.com -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- vue 3 CDN -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- main css -->
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+
+    <div id="root">
+        <h1 class="text-center">{{text}}</h1>
+        <h2 class="text-2xl bold text-center">{{number}}</h2>
+
+        <button v-on:click="DECREMENT"
+            class="bg-sky-700 px-3 py-2  rounded-md focus:ring-4 ring-sky-400 mx-4">DECREMENT</button>
+        <button v-on:click="INCREMENT"
+            class="bg-sky-700 px-3 py-2  rounded-md focus:ring-4 ring-sky-400 mx-4">INCREMENT</button>
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
