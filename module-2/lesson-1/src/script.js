@@ -1,20 +1,23 @@
 const app = Vue.createApp({
     data() {
         return {
-            text: "Hello Vue.js",
-            number: 0,
+            task: [],
+            title: "",
         }
     },
 
     methods: {
-        getSay() {
-            console.log("Hello world");
-        },
-        INCREMENT() {
-            this.number += 1
-        },
-        DECREMENT() {
-            this.number -= 1
+        addTask() {
+            const newTask = {
+                id: Date.now(),
+                title: this.title
+            }
+            if (!newTask.title.length) {
+                alert('Please fill the task title')
+            } else {
+                this.task.push(newTask)
+                this.title = "";
+            }
         }
     }
 })
