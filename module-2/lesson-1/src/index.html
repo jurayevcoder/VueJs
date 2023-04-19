@@ -22,14 +22,14 @@
                 <div class="container mx-auto">
                     <div class="todo__wrapper w-[600px] min-h-[600px] shadow-2xl mx-auto p-4">
 
-                        <h1 class="text-3xl text-center font-bold my-4 text-pink-700">MY TODO APP</h1>
+                        <h1 class="text-3xl text-center font-bold my-4 text-blue-700">MY TODO APP</h1>
 
                         <div class="flex">
                             <input type="text" placeholder="Enter task title" v-bind:value="title"
                                 v-on:input="$event=>title=$event.target.value"
-                                class="p-3 w-full focus:ring-2 focus:ring-pink-500 duration-200 outline-none border">
+                                class="p-3 w-full focus:ring-2 focus:ring-blue-500 duration-200 outline-none border">
                             <button v-on:click="addTask"
-                                class="p-3 text-white bg-pink-700 focus:ring-2 ring-slate-600">ADD</button>
+                                class="p-3 text-white bg-blue-700 focus:ring-2 ring-slate-600">ADD</button>
                         </div>
 
                         <div class="flex p-1 mt-4">
@@ -39,13 +39,18 @@
                         </div>
 
                         <ul class="w-full p-4">
-                            <h1 v-if="!task.length" class="text-center">EMPTY TASK LIST !!!</h1>
+                            <h1 v-if="!task.length" class="text-center text-red-700">EMPTY TASK LIST !!!</h1>
 
                             <li v-else v-for="(item, index) in task"
                                 class="p-4 shadow border flex items-center justify-between mt-2">
-                                <span class="text-pink-800 font-bold mr-4">1</span>
+                                <span class="text-blue-800 font-bold mr-4">{{index+1}}</span>
                                 <span>{{item.title}}</span>
-                                <button class="bg-red-700 text-white p-2 rounded-2xl focus:ring-2">Remove</button>
+                                <div class="flex gap-2">
+                                    <button v-on:click="()=>edit(index)"
+                                        class="bg-blue-700 text-white p-3 rounded-2xl focus:ring-2 font-bold">Edit</button>
+                                    <button v-on:click="()=>remov(index)"
+                                        class="bg-red-700 text-white p-3 rounded-2xl focus:ring-2 font-bold">Remove</button>
+                                </div>
                             </li>
                         </ul>
                     </div>

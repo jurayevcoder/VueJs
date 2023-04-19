@@ -18,6 +18,15 @@ const app = Vue.createApp({
                 this.task.push(newTask)
                 this.title = "";
             }
+        },
+
+        remov(index) {
+            this.task.splice(index, 1)
+        },
+
+        edit(index) {
+            let a = prompt("Edit write..");
+            this.task[index].title = a;
         }
     }
 })
