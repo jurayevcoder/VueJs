@@ -24,6 +24,8 @@ const authstore = {
                 const response = await axios.post("/user/login", payload)
                 localStorage.setItem('token', response?.data?.tokens?.access_token);
                 commit('SET_USERNAME', response.data.first_name);
+                commit("SET_LOAD");
+                return response
             } catch (err) {
                 commit('SET_ERROR', err);
             }
