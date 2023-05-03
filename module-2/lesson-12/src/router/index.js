@@ -7,17 +7,41 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView
+      component: HomeView,
+      children: [
+        {
+          path: '/tasks',
+          name: 'tasks',
+          component: () => import('../views/Task/Task.vue')
+        },
+        {
+          path: '/tasks/:id',
+          name: 'taskItem',
+          component: () => import('../views/Task/TaskItem.vue')
+        },
+        {
+          path: '/addtask',
+          name: 'addtask',
+          component: () => import('../views/Task/AddTask.vue')
+        },
+      ],
     },
     {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue')
+      path: '/login',
+      name: 'login',
+      component: () => import('../views/Login/Login.vue')
     }
   ]
+})
+
+router.beforeEach((to, from, next) => {
+  const token = localStorage.getItem('token')
+  if (to.name !== 'login' && !token) {
+    next('/login');
+  }
+  else {
+    next()
+  }
 })
 
 export default router

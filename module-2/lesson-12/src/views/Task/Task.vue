@@ -1,13 +1,12 @@
 <template>
   <div>
-    <h1>Home</h1>
-    <router-view></router-view>
+    <h1>Task List</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: "home",
+  name: 'task'
 };
 </script>
 
