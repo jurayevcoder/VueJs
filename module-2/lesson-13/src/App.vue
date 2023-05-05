@@ -1,4 +1,6 @@
-<template></template>
+<template>
+  <PostList :post="state" />
+</template>
 
 <script setup>
 import { reactive, onMounted } from "vue";
