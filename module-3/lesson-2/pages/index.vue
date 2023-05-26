@@ -1,9 +1,8 @@
 <template>
   <div class="container mx-auto">
-    <div class="wrapper p-6 border border-dashed bor der-green-400">
-      <div class="p-4 shadow bg-white">
-        <h2>Home</h2>
-        <button>go back</button>
+    <div class="wrapper p-6 border border-dashed border-green-400">
+      <div class="p-4 shadow bg-white flex justify-between items-center">
+        <h2 class="font-bold uppercase">Home</h2>
       </div>
     </div>
   </div>
